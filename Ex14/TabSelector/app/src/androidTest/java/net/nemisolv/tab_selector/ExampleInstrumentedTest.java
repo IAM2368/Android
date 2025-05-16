@@ -1,4 +1,4 @@
-package com.example.tabselector;
+package net.nemisolv.tab_selector;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.tabselector", appContext.getPackageName());
+        assertEquals("net.nemisolv.tab_selector", appContext.getPackageName());
     }
 }

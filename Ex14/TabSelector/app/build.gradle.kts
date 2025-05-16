@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.tabselector"
-    compileSdk = 35
+    namespace = "net.nemisolv.tab_selector"
+    compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.tabselector"
+        applicationId = "net.nemisolv.tab_selector"
         minSdk = 24
-        targetSdk = 35
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -26,13 +26,14 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
 }
 
 dependencies {
-
+    implementation ("androidx.appcompat:appcompat:1.4.0")
+    implementation ("com.google.android.material:material:1.4.0")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)

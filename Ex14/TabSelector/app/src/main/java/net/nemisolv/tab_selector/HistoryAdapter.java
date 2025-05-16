@@ -1,4 +1,4 @@
-package com.example.tabselector;
+package net.nemisolv.tab_selector;
 
 
 import android.view.LayoutInflater;
