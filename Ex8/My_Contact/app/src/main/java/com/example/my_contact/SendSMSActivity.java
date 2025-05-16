@@ -1,8 +1,11 @@
 package com.example.my_contact;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageButton;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,22 +13,24 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivity extends AppCompatActivity {
-    Button btnCall, btnSMS;
+public class SendSMSActivity extends AppCompatActivity {
+    EditText edtSms;
+    Button btnBackSms;
+    ImageButton imageButton2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main);
-        btnCall = findViewById(R.id.btnCallPhone);
-        btnSMS = findViewById(R.id.btnSendSms);
-        btnCall.setOnClickListener(v -> {
-            Intent intent1 = new Intent(MainActivity.this, CallPhoneActivity.class);
-            startActivity(intent1);
+        setContentView(R.layout.activity_send_smsactivity);
+        edtSms = findViewById(R.id.editTextPhone);
+        imageButton2 = findViewById(R.id.imageButton2);
+        btnBackSms = findViewById(R.id.btnBack2);
+        imageButton2.setOnClickListener(v->{
+            Intent callIntent = new Intent(Intent.ACTION_SENDTO, Uri.parse("smsto:"+edtSms.getText().toString()));
+            startActivity(callIntent);
         });
-        btnSMS.setOnClickListener(v -> {
-            Intent intent2 = new Intent(MainActivity.this, SendSMSActivity.class);
-            startActivity(intent2);
+        btnBackSms.setOnClickListener(v -> {
+            finish();
         });
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
