@@ -19,5 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "TabSelector2"
+rootProject.name = "tab-host"
 include(":app")
+ 

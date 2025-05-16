@@ -1,6 +1,7 @@
-package com.example.tabselector2;
+package net.nemisolv.tab_host;
+
 public class Song {
-    private String title;
+   private String title;
     private boolean isFavorite;
     private String id;
 

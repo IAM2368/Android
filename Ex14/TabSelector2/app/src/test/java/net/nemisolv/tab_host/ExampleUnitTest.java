@@ -1,4 +1,4 @@
-package com.example.tabselector2;
+package net.nemisolv.tab_host;
 
 import org.junit.Test;
 
