@@ -1,4 +1,4 @@
-package com.example.intent_service;
+package com.nemisolv.intent_service;
 
 import android.app.Service;
 import android.content.Intent;
