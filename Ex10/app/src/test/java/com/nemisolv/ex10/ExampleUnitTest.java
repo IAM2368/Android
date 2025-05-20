@@ -1,4 +1,4 @@
-package com.example.intent_broadcastreceiver;
+package com.nemisolv.ex10;
 
 import org.junit.Test;
 

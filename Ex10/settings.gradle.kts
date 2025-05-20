@@ -19,5 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Intent_ BroadcastReceiver"
+rootProject.name = "Ex10"
 include(":app")
+ 
