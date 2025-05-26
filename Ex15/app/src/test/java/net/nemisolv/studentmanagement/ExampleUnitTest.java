@@ -1,4 +1,4 @@
-package com.example.qlsinhvien;
+package net.nemisolv.studentmanagement;
 
 import org.junit.Test;
 
