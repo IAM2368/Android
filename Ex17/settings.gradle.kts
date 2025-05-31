@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Ex17"
+rootProject.name = "copdy DB"
 include(":app")
  
