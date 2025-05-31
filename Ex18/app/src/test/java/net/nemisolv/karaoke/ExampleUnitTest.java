@@ -1,4 +1,4 @@
-package com.example.ex18;
+package net.nemisolv.karaoke;
 
 import org.junit.Test;
 

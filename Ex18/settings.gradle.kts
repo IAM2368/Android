@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Ex18"
+rootProject.name = "Karaoke"
 include(":app")
  
