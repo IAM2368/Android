@@ -1,4 +1,4 @@
-package com.example.ex20;
+package net.nemisolv.asynctask;
 
 import org.junit.Test;
 

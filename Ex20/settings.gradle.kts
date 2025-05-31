@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Ex20"
+rootProject.name = "AsyncTask"
 include(":app")
  
