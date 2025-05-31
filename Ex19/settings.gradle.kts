@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Ex19"
+rootProject.name = "XML reader"
 include(":app")
  

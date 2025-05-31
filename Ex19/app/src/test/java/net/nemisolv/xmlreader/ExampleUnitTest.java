@@ -1,4 +1,4 @@
-package com.example.ex19;
+package net.nemisolv.xmlreader;
 
 import org.junit.Test;
 
