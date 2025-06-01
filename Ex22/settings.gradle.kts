@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Ex22"
+rootProject.name = "internet working"
 include(":app")
  

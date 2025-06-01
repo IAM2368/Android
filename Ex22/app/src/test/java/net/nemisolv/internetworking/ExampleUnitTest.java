@@ -1,4 +1,4 @@
-package com.example.ex22;
+package net.nemisolv.internetworking;
 
 import org.junit.Test;
 

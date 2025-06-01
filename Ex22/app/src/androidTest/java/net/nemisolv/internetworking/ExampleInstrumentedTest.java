@@ -1,4 +1,4 @@
-package com.example.ex22;
+package net.nemisolv.internetworking;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.ex22", appContext.getPackageName());
+        assertEquals("net.nemisolv.internetworking", appContext.getPackageName());
     }
 }
