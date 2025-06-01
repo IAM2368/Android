@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.ex23"
-    compileSdk = 35
+    namespace = "net.nemisolv.readnews"
+    compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.ex23"
+        applicationId = "net.nemisolv.readnews"
         minSdk = 24
-        targetSdk = 35
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -26,13 +26,15 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
+
+    useLibrary("org.apache.http.legacy")
 }
 
 dependencies {
-
+    implementation("org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)

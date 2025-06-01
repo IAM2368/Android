@@ -1,4 +1,4 @@
-package com.example.ex23;
+package net.nemisolv.readnews;
 
 import org.junit.Test;
 
