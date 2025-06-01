@@ -1,4 +1,4 @@
-package com.example.ex21;
+package net.nemisolv.read_json;
 
 import org.junit.Test;
 

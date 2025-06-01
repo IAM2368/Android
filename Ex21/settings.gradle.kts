@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Ex21"
+rootProject.name = "Read_JSON"
 include(":app")
  
